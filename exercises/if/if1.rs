@@ -18,7 +18,16 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     }
 
 }
+pub fn bb(c: i32, d: i32) -> i32 {
+    let c:i32 =42;
+    let d:i32 =32;
+    if c>d{
+        c
+    }else{
+        d
+    }
 
+}
 
 
 // Don't mind this for now :)
