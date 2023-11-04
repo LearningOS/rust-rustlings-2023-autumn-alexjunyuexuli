@@ -9,14 +9,17 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // Do not use:
     // - another function call
     // - additional variables
-    let a:i32 = 12;
-    let b:i32 = 1;
+    let a :i32 =10;
+    let b:i32 =8;
     if a>b{
         a
     }else{
         b
     }
+
 }
+
+
 
 // Don't mind this for now :)
 #[cfg(test)]
