@@ -5,7 +5,7 @@
 
 
 
-const NUMBER:&str = 3;
+const NUMBER:& str = 3;
 fn main() {
     println!("Number {}", NUMBER);
 }
