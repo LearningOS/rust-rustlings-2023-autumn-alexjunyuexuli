@@ -9,9 +9,10 @@
 
 
 fn main() {
-    let vec0: Vec<(unknow)>= Vec::new();
+    
+    let vec0: Vec<i32>= Vec::new();
 
-    let mut vec1 :Vec<i32> fill_vec(vec0);
+    let mut vec1 :Vec<i32> =fill_vec(vec0);
 
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 
@@ -20,11 +21,14 @@ fn main() {
     println!("{} has length {} content `{:?}`", "vec1", vec1.len(), vec1);
 }
 
-fn fill_vec(vec:&mut Vec<i32>) -> Vec<i32> {
-    et mut vec:&mut Vec<i32> = vec;
+fn fill_vec(vec: Vec<i32>) ->  Vec<i32> {
+    let mut vec: Vec<i32> = vec;
     vec.push(22);
     vec.push(44);
     vec.push(66);
 
     vec
 }
+
+
+

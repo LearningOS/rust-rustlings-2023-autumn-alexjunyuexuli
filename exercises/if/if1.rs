@@ -18,16 +18,17 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     }
 
 }
-fn fortytwo_is_bigger_than_thirtytwo(c: i32, d: i32) -> i32 {
-    let c:i32 =32;
-    let d:i32 =42;
-    if c>d{
-        c
+fn fortytwo_is_bigger_than_thirtytwo(a: i32, b: i32) -> i32 {
+    let a:i32 =32;
+    let b:i32 =42;
+    if a>b{
+        a
     }else{
-        d
+        b
     }
 
 }
+
 
 
 // Don't mind this for now :)
