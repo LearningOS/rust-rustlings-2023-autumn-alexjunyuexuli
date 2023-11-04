@@ -10,7 +10,7 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // - another function call
     // - additional variables
     let a:i32 = 12;
-    let b :i32 = 111;
+    let b:i32 = 1;
     if a>b{
         a
     }else{
