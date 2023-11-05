@@ -6,16 +6,16 @@
 // hint.
 
 
-#[derive(Debug)]
+
 struct ColorClassicStruct {
     // TODO: Something goes here
-    red:u8,
-    green:u8,
-    blue:u8,
+    red:i32,
+    green:i32,
+    blue:i32,
 }
-struct ColorTupleStruct(u8,u8,u8);
+struct ColorTupleStruct(i32,i32,i32);
 
-
+#[derive(Debug)]
 struct UnitLikeStruct;
 
 #[cfg(test)]
@@ -26,9 +26,9 @@ mod tests {
     fn classic_c_structs() {
         // TODO: Instantiate a classic c struct!
         let green:ColorTupleStruct=ColorTupleStruct(
-            0,
-            255,
-            0,
+            red:0,
+            green:255,
+            blue:0
         );
             
        
@@ -59,6 +59,7 @@ mod tests {
         assert_eq!(message, "UnitLikeStructs are fun!");
     }
 }
+
 
 
 
