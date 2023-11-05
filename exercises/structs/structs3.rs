@@ -1,4 +1,3 @@
-// structs3.rs
 //
 // Structs contain data, but can also have logic. In this exercise we have
 // defined the Package struct and we want to test some logic attached to it.
@@ -24,22 +23,22 @@ impl Package {
                 sender_country,
                 recipient_country,
                 weight_in_grams,
-
-
-
-
-
-                
             }
         }
     }
 
     fn is_international(&self) -> bool {
-        
+        // Something goes here...
+        let mut x=true;
+        if self.sender_country==self.recipient_country{x=false};
+        x
     }
 
     fn get_fees(&self, cents_per_gram: i32) -> i32 {
-        
+        // Something goes here...
+        let x=self.weight_in_grams*cents_per_gram;
+        x
+    }
 }
 
 #[cfg(test)]
@@ -88,3 +87,4 @@ mod tests {
         assert_eq!(package.get_fees(cents_per_gram * 2), 9000);
     }
 }
+
