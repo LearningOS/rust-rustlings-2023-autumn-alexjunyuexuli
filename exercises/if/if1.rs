@@ -9,25 +9,18 @@ pub fn bigger(a: i32, b: i32) -> i32 {
     // Do not use:
     // - another function call
     // - additional variables
-    let a :i32 =10;
-    let b:i32 =8;
+ 
     if a>b{
         a
     }else{
+        
         b
     }
 
 }
-fn fortytwo_is_bigger_than_thirtytwo(a: i32, b: i32) -> i32 {
-    let a:i32 =32;
-    let b:i32 =42;
-    if a>b{
-        a
-    }else{
-        b
-    }
 
-}
+
+
 
 
 

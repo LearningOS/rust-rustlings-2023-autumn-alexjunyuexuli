@@ -32,9 +32,10 @@ fn verify_test() {
     assert_eq!(65, price4);
 }
 fn calculate_price_of_apples(n:i32) -> i32{
+    
     if n >40{
-        m
+        n
     }else{
-        m*2
+        n*2
     }
 }
