@@ -1,4 +1,4 @@
-/ traits4.rs
+// traits4.rs
 //
 // Your task is to replace the '??' sections so the code compiles.
 //
